@@ -1,0 +1,274 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  src: url('../Fonts/files (convert.io)/Gilroy-Medium.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('../Fonts/files (convert.io)/Gilroy-Bold.woff2') format('woff2');
+}
+
+
+body {
+  font-weight: 500; 
+  width: 1445px;
+  height: 4759px;
+  font-family: 'Gilroy', sans-serif;  
+  
+  margin: 0 auto;
+}
+
+.container {
+  display: block;
+  margin: 0 auto;
+  max-width: 940px;
+  text-align: center;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;                 
+}
+/* text decoration  none убирает подчёркивание ссылки, underline-наоборот*/
+
+                          
+a.link {
+  size: 18px;
+  font-family: 'Gilroy-Bold';
+  color: #070707;
+}
+
+a.nav__link {
+  size: 18px;
+  font-family: 'Gilroy-Medium';
+  color: #828282;
+}
+
+
+li {
+  list-style-type: none;
+}
+
+.hero {
+  background: #FFFFFF;
+  padding-top: 32px;
+  padding-bottom: 14px;
+  height: 100vh;
+}
+
+.nav {
+  border-bottom: 1px solid #828282;
+  
+}
+
+
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 32px 0;
+  
+}
+
+.hero__image {
+  display:block;
+  width: 940px;
+  height: 387px;
+  background: #b8b8b8;
+}
+
+.hero__title {
+  text-align: left;
+  font-family: 'Gilroy-Bold';
+  font-size: 47px;
+  font-weight: 700;
+  color: #070707;
+  margin-top: 40px;
+  
+}
+
+.hero__age {
+  margin-bottom: 25px; 
+  text-align: right;
+  font-size: 18px;
+  color:  #070707;
+}
+
+.hero__info__info {
+  padding-top: 30px;  
+  padding-bottom: 104px;
+}
+
+
+
+.about {
+  padding-top: 120px; 
+  
+  background: #F6F6F6;
+  width: 1445px;
+  height: 506px; 
+}  
+ 
+.about__title {
+font-weight: 700;
+font-family: 'Gilroy-Bold';
+font-size: 34px;
+color: #070707;
+ 
+/* margin-bottom: 17px;!!!???? */
+}
+
+.about__text {
+
+text-align: center;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+color: #070707;
+margin-bottom: 43px;
+margin-top: 17px;
+}
+
+.skills {
+  padding-top: 90px;
+  
+}
+ 
+.skills__title {
+font-family: 'Gilroy-Bold';
+margin-bottom: 69px;
+font-size: 34px;
+font-weight: 700;
+}
+
+.skills__text {
+  margin-bottom: 83px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.skills__cards {
+  display: flex;
+  justify-content: space-between; 
+  
+}
+
+.skills__card {
+
+margin-bottom: 104px;
+width: 166px;
+}
+
+.card__img {
+  margin-bottom: 24px;
+  width: 90px;
+  height: 90px;
+  background: #FFFFFF;
+}     
+  
+.card__text {
+  font-weight: 700;
+  font-family: 'Gilroy Bold', sans-serif;
+  margin-bottom: 41px;
+  color: #828282;
+  font-size: 14px;
+  min-height: 34px;
+  max-width: 80px;
+  margin: 0 auto;
+  text-align: center;
+} 
+
+.card__stars {
+  margin-top: 41px; 
+  display: flex;
+  justify-content: space-between;
+}
+
+.portfolio {
+  padding-top: 112px;
+  padding-bottom: 96px; 
+  background: #F6F6F6; 
+}
+
+.portfolio__title {
+ font-family: 'Gilroy-Bold';
+ font-size: 34px;
+ font-weight: 700;
+ color: #070707;
+ margin-bottom: 47px;
+}
+
+.portfolio__photo {
+  margin-bottom: 42px;
+}
+/* margin-bottom-раздвинули фото между собой и текстом  */
+
+.p__link {
+margin-bottom: 99px;
+}
+
+a.portfolio__link {
+  text-decoration: underline;
+  font-size: 18px;
+  color: #070707;
+}
+
+.futer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 124px;
+  padding-bottom: 123px;
+}
+
+.futer__title {
+  font-weight: 700;
+  font-family: 'Gilroy-Bold';
+  font-size: 34px;
+  color: #070707;
+  margin-bottom: 20px;
+}
+
+.contacts__text {
+  font-family: 'Gilroy-Medium';
+  margin-bottom: 29px;
+  font-size: 18px;
+  color: #070707;
+}
+
+.message__btn {
+  width: 166.46px;
+  height: 38px;
+  margin-bottom: 80px;
+  font-family: 'Gilroy-Bold';
+  font-size: 18px;
+  background: #070707;
+  border-radius: 50px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: 0;
+}
+
+
+.futer__link {
+   display: flex; 
+  margin-bottom: 45px;
+  /* justify-content: space-between;  */
+  width: 342.18px;
+  height: 40.92px; 
+}
+
+.futer__text {
+  font-family: 'Gilroy-Medium';
+  font-size: 14px;
+  color: #828282;
+  margin-bottom: 123px;
+}
+
+
+
+  
